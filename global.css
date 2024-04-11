@@ -1,0 +1,134 @@
+h1 {
+    text-align: center;
+    margin-top: 15px;
+  }
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+  body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    background-color: lightblue;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-button {
+    border-radius: 10px;
+    background-color: rgb(9, 152, 247);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: white;
+    color: rgb(0, 157, 255);
+  }
+  
+  .card {
+    text-align: center;
+    margin: 5px auto; 
+    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2);
+    width: 20%; 
+  }
+  
+  .container {
+    padding: 2px 12px;
+  }
+  
+  h4 {
+    font-family: Helvetica, sans-serif;
+    color: #111;
+  }
+  
+  #question-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    min-height: 50vh;
+  }
+  
+  #leaderboard-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(169, 78, 78);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard {
+    margin-top: 20px;
+  }
+  
+  .leaderboard h3 {
+    text-align: center;
+  }
+  
+  .leaderboard ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard ol li {
+    background-color: rgb(238, 213, 213);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .navigation-container {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .btn-success {
+    display: block; 
+    margin: 20px auto;
+  }
+  
+
+  #quiz-intro {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgb(46, 46, 46);  
+    border-radius: 8px;
+    color: white;
+  }
+  
+  #start-quiz-form input[type="text"] {
+    width: 80%; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+  }
